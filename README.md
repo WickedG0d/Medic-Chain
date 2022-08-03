@@ -1,9 +1,16 @@
 # Medic-Chain
 A blockchain-based Medical Records Management System
 
-<p align="right">
-  <img src="Video/Medic@Chain.png" width="100%" height="100%">
-</p>
+![Screenshot from 2022-04-22 12-12-16](https://user-images.githubusercontent.com/50737863/182576175-b508194b-265b-41a2-897d-9f9d7814b7e4.png)
+
+![Screenshot from 2022-04-22 12-12-40](https://user-images.githubusercontent.com/50737863/182576193-e8db8b92-0b78-4ea7-b180-81b2d0870ff3.png)
+
+![Screenshot from 2022-04-22 12-13-15](https://user-images.githubusercontent.com/50737863/182576236-c21e902a-f7bc-4848-9d46-36099ccaa205.png)
+
+![Screenshot from 2022-04-22 12-14-11](https://user-images.githubusercontent.com/50737863/182576250-ed99cb4d-d9ef-4315-95da-fcdfa07000a3.png)
+
+![Screenshot from 2022-04-22 12-14-42](https://user-images.githubusercontent.com/50737863/182576271-e996fed5-7d16-457e-8237-693b1c344ea9.png)
+
 
 Today, doctors & health professionals are limited in the level of care they can provide because due to inability to view your complete, accurate health records. The proposed solution is a blockchain network created by the Health Department, who registers the doctors in this network. The doctors can publish patients medical records safely on blockchain network.
 
