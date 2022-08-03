@@ -1,0 +1,27 @@
+geth attach http://127.0.0.1:8545
+
+
+devchain
+
+geth --datadir dev --networkid "4002" --http --http.port 8545 --ipcpath "~/.ethereum/geth.ipc" --http.corsdomain "*" --http.api "db,personal,eth,web3,net" --dev
+
+geth --datadir dev --networkid "4002" --http --http.port 8545 --ipcpath "~/.ethereum/geth.ipc" --http.corsdomain "*" --http.api "db,personal,eth,web3,net" --dev --unlock 1,2,3,4 --allow-insecure-unlock
+
+geth --datadir dev --networkid "4002" --http --http.port 8545 --ipcpath "~/.ethereum/geth.ipc" --http.corsdomain https://remix.ethereum.org --http.api "db,personal,eth,web3,net" --dev --unlock 1,2,3,4 --allow-insecure-unlock
+
+
+private chain
+
+for creating account
+
+geth --identity "miner" --networkid 4002 --datadir data --nodiscover --http --http.port "8545" --port "8191" --ipcpath "~/.ethereum/geth.ipc" --http.corsdomain "*" --http.api "db,eth,net,web3,personal"
+
+
+
+geth --identity "miner" --networkid 4002 --datadir data --nodiscover --mine --http --http.port "8545" --port "8191" --unlock 0,1,2,3 --password password.txt --ipcpath "~/.ethereum/geth.ipc" --http.corsdomain "*" --http.api "db,eth,net,web3,personal" --allow-insecure-unlock 
+
+
+geth --identity "miner" --networkid 4002 --datadir data --nodiscover --http --http.port "8545" --port "8191" --ipcpath "~/.ethereum/geth.ipc" --http.corsdomain https://remix.ethereum.org --http.api "db,eth,net,web3,personal"
+
+geth --identity "miner" --networkid 4002 --datadir data --nodiscover --mine --http --http.port "8545" --port "8191" --unlock 0,1,2,3 --password password.txt --ipcpath "~/.ethereum/geth.ipc" --http.corsdomain https://remix.ethereum.org --http.api "db,eth,net,web3,personal" --allow-insecure-unlock 
+
